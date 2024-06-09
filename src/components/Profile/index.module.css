@@ -1,0 +1,28 @@
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 64px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.sublogo {
+
+    text-shadow: 1px 1.5px #d9d9cc;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal
+}
+
+.submain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

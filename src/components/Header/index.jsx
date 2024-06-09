@@ -1,11 +1,9 @@
-import coverImage from '../../assets/cover/cover-image.jpg';
+import classes from './index.module.css';
 
 function Header(props) {
 
   return (
-    <header className="flex-row space-between px-1">
-      <h1>Lernantino</h1>
-      <img src={coverImage} alt="wooden background"></img>
+    <header className={classes.main}>
       {props.children}
     </header>
   );
