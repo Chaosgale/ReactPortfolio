@@ -20,8 +20,8 @@ main {
 
 * {
   box-sizing: border-box;
-  font-family: "Fahkwang", sans-serif;
-  font-weight: 500;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 400;
   font-style: normal;
 
 
@@ -50,14 +50,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fahkwang", sans-serif;
-  font-weight: 500;
+
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
+  font-family: "Fahkwang", sans-serif;
   font-size: 5rem;
+  font-weight: 500;
+  font-style: normal;
   margin: 50px 20px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
