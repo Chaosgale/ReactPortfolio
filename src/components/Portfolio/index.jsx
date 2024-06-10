@@ -31,12 +31,6 @@ function Portfolio() {
       link: "https://github.com",
       repo: "https://github.com"
     },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
   ]);
 
   return (
