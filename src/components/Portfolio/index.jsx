@@ -8,28 +8,28 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surfReport',
-      description: 'MERN Stack',
+      name: 'budgeIt',
+      description: 'CSS / JavaScript / Handlebars',
       link: "https://blueberry-cake-79168-e1e68fe7cf3a.herokuapp.com/login",
-      repo: "https://github.com"
+      repo: "https://github.com/Al3xG23/Budge_It.git"
     },
     {
-      name: 'pastelPuzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'cssSnippets',
+      description: 'HTML / CSS',
+      link: "https://chaosgale.github.io/mn2/",
+      repo: "https://github.com/Chaosgale/mn2.git"
     },
     {
-      name: 'runBuddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'weatherAPI',
+      description: 'HTML / CSS / JavaScript',
+      link: "https://chaosgale.github.io/weather/",
+      repo: "https://github.com/Chaosgale/weather.git"
     },
     {
-      name: 'ledWall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'vaultTec',
+      description: 'Node / MySQL ',
+      link: "https://github.com/Chaosgale/Vault-Tec_Employee_Tracker",
+      repo: "https://github.com/Chaosgale/Vault-Tec_Employee_Tracker"
     },
   ]);
 
