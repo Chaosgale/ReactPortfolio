@@ -24,6 +24,7 @@ main {
   font-weight: 500;
   font-style: normal;
 
+
 }
 
 html,
@@ -130,6 +131,11 @@ button[disabled] {
   cursor: default;
   opacity: 0.8;
 }
+
+/* section {
+  display: flex;
+  justify-content: center;
+} */
 
 img {
   max-width: 100%;
@@ -348,33 +354,13 @@ textarea {
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
-@media only screen and (max-width: 1300px) {
+
+@media only screen and (max-width: 700px) {
   nav {
     position: static;
-    display: block;
-    z-index: 100;
     margin: 0 10px;
-    font-size: 2rem;
   }
-  header h1 {
-    display: block;
-    height: 30px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  nav {
-    position: static;
-    display: block;
-    z-index: 100;
-    margin: 0 10px;
-    font-size: 1.3rem;
-  }
-  header h1 {
-    display: block;
-    margin: 5px 10px;
-    height: 15px;
-    width: 100%;
-    text-align: center;
-    font-size: 2.3rem;
+  header {
+    height: 70px;
   }
 }

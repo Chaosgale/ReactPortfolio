@@ -4,6 +4,8 @@ import PageContent from '../PageContent';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import { Outlet } from 'react-router-dom';
 
+import classes from './index.module.css';
+
 function Page({ currentPage }) {
   currentPage = currentPage.substring(1);
 
@@ -12,9 +14,7 @@ function Page({ currentPage }) {
   }, [currentPage]);
 
   return (
-    <section>
-      <h2>{capitalizeFirstLetter(currentPage)}</h2>
-
+    <section className={classes.main}>
       <PageContent>
         <Outlet />
       </PageContent>

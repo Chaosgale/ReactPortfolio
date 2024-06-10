@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Project from "../Project";
 
+import classes from './index.module.css';
+
 function Portfolio() {
 
   // Replace links with deployed projects and GitHub repos
@@ -38,7 +40,7 @@ function Portfolio() {
   ]);
 
   return (
-    <div>
+    <div className={classes.main}>
       <div className="flex-row">
         {projects.map((project, idx) => (
           <Project

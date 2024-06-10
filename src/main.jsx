@@ -2,10 +2,8 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import Error from './components/ErrorPage';
-import About from './components/About';
 import Profile from './components/Profile';
 import Portfolio from './components/Portfolio';
-
 
 import { CardsCarousel } from './components/Mantine/CardsCarousel';
 
@@ -20,10 +18,6 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-      // {
-      //   index: true,
-      //   element: <About />,
-      // },
       {
         index: true,
         element: <Profile />,
